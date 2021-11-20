@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* * This margin 0 padding 0 will take away any space on any elements */
+  /* * When we need padding and margin we can add our own space. */
+}
+html,
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #000;
+  color: #fff;
+  line-height: 1.7;
+  overflow-x: hidden;
+  /* *This overflow hidden on X axis can make any scollbars don't show on the X axis (horizontally) */
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  /* * Remove the underline of all links */
+}
+a:hover {
+  color: #ccc;
+}
+ul {
+  list-style-type: none;
+  /* * Remove all the bullet points */
+}
+img {
+  width: 100%;
+}

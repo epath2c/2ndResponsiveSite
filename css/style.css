@@ -31,3 +31,83 @@ ul {
 img {
   width: 100%;
 }
+
+h4 {
+  color: #00ed82;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.btn {
+  display: inline-block;
+  background: #fff;
+  color: #333;
+  min-width: 135px;
+  padding: 20px 32px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 14px;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn-cta:hover {
+  opacity: 0.8;
+}
+
+.legal-text {
+  font-size: 10px;
+  color: #ccc;
+  margin-top: 20px;
+}
+
+/* ! Header */
+.header {
+  height: 530px;
+  background: url(../img/header.jpg) no-repeat center center / cover;
+  /* Use an image as the header's background. */
+}
+
+.header nav {
+  display: flex;
+  /* We want to make the list in the nav to form a row of columns */
+  justify-content: flex-end;
+  padding: 20px 40px;
+}
+
+.header nav .login-btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+  /* These two none will remove the default style of the button, which is pretty ugly. */
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.header .logo {
+  width: 270px;
+  margin: 20px 0;
+}
+
+.header .header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.header .header-text-1 {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+.header .header-text-2 {
+  font-size: 18px;
+  margin: 25px;
+}

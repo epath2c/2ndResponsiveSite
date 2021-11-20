@@ -72,7 +72,10 @@ h4 {
   color: #fff;
   border-color: #ccc;
 }
-
+.btn-dark {
+  background: #000;
+  color: #fff;
+}
 .legal-text {
   font-size: 10px;
   color: #ccc;
@@ -337,6 +340,71 @@ h4 {
   height: 25px;
   margin-right: 25px;
 }
+
+/* ! Modal */
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.modal-box {
+  margin: 10% auto;
+  width: 400px;
+  background: #fff;
+  color: #333;
+  position: relative;
+}
+.modal-body {
+  padding: 50px;
+}
+.modal-body h3 {
+  font-weight: bold;
+}
+.modal-body btn {
+  width: 100%;
+  margin-top: 30px;
+}
+.modal .close {
+  cursor: pointer;
+  height: 23px;
+  width: 23px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.modal .modal-footer {
+  background: #f7f7f9;
+  color: #333;
+  padding: 20px 0;
+  border-top: #eee 1px solid;
+  text-align: center;
+}
+.modal .modal-footer a {
+  color: steelblue;
+}
+/* ! Form */
+
+.form-control {
+  margin: 20px 0;
+}
+.form-control label {
+  display: block;
+  text-transform: uppercase;
+}
+.form-control input {
+  width: 100%;
+  border: 2px #ccc solid;
+  border-radius: 5px;
+  height: 50px;
+  padding: 5px;
+}
+
 /* ! Media Queries */
 @media screen and (max-width: 1200px) {
   .categories .covers {
@@ -397,6 +465,9 @@ h4 {
   }
   .footer-lists {
     flex-direction: column;
+  }
+  .modal .modal-box {
+    width: 300px;
   }
 }
 @media screen and (max-width: 700px) {
